@@ -1,11 +1,28 @@
 {
-    "name": "my-custom-themes",
-    "displayName": "My Custom Themes",
+    "name": "neon-dance-party",
+    "displayName": "90s Neon Dance Party",
+    "description": "A vibrant, neon-inspired dark theme reminiscent of the 90s dance party scene. Perfect for those who love bright colors on a dark background.",
     "publisher": "yourPublisher",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.50.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lsw4cq/neon-dance-party-theme.git"
+    },
+    "homepage": "https://github.com/lsw4cq/neon-dance-party-theme",
+    "icon": "icon.jpeg",
+    "keywords": [
+        "theme",
+        "neon",
+        "dark theme",
+        "colorful",
+        "90s"
+    ],
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
@@ -14,5 +31,9 @@
                 "path": "./themes/neon_party.json"
             }
         ]
-    }
+    },
+    "scripts": {
+        "package": "vsce package"
+    },
+    "license": "MIT"
 }
